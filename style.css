@@ -1,0 +1,55 @@
+#main-frame{
+	position: relative;
+	border-width: 5px;
+	top: 23px;
+	border-style: double;
+	background: linear-gradient(#dde5ed, #8e9fbc);
+	width: 80%;
+	margin-left: 9%;
+	}
+
+#score-board{
+	width: 20%;
+	line-height: 3;
+	font-weight: bold;
+	background: linear-gradient(#FF5733, #FF5733 );
+	font-size: 18px;
+	text-align: center;
+	margin: auto;
+}
+
+#pause{
+	background-color: #e5e8e8;
+    transition: .2s ease-out;
+    width: 200px;
+    height: 45px;
+    border-radius: 11px;
+    margin-left: 30%;
+    margin-top: 6%;
+}
+
+
+#pause:hover{
+	background-color: #5d6d7e;
+	color: #ffffff;
+}
+
+section{
+	width: 600px;
+	margin-top: 2%;
+	background-color: #148f77;
+	height: 600px;
+
+}
+label{
+	float: right;
+	margin-right: 2%;
+	font-style: italic;
+	font-size: 12px;
+	margin-top: 10%;
+}
+#restart {
+    margin-left: 3%;
+    position: absolute;
+    top: 50px;
+}
