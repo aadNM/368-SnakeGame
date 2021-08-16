@@ -163,3 +163,6 @@ function pause(){
 function refreshPage(){
     history.go(0);
 }
+
+
+/*Source: https://www.educative.io/blog/javascript-snake-game-tutorial*/
